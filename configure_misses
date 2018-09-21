@@ -1,0 +1,50 @@
+Configure miss: docbook2x-man
+Configure miss: tool to (re)generate man pages
+Configure miss: whether to install man pages
+Configure miss: whether to build the pynslcd daemon
+Configure miss: pthread_np.h usability
+Configure miss: pthread_np.h presence
+Configure miss: pthread_np.h
+Configure miss: nss_common.h usability
+Configure miss: nss_common.h presence
+Configure miss: nss_common.h
+Configure miss: rpc/rpcent.h usability
+Configure miss: rpc/rpcent.h presence
+Configure miss: rpc/rpcent.h
+Configure miss: nsswitch.h usability
+Configure miss: nsswitch.h presence
+Configure miss: nsswitch.h
+Configure miss: nss_dbdefs.h usability
+Configure miss: nss_dbdefs.h presence
+Configure miss: nss_dbdefs.h
+Configure miss: sys/ucred.h usability
+Configure miss: sys/ucred.h presence
+Configure miss: ucred.h usability
+Configure miss: ucred.h presence
+Configure miss: ucred.h
+Configure miss: struct etherent
+Configure miss: struct passwd.pw_class
+Configure miss: nss_backend_t
+Configure miss: struct nss_XbyY_args.returnlen
+Configure miss: pam/pam_modules.h usability
+Configure miss: pam/pam_modules.h presence
+Configure miss: pam/pam_modules.h
+Configure miss: ldap_ssl.h usability
+Configure miss: ldap_ssl.h presence
+Configure miss: ldap_ssl.h
+Configure miss: gssldap.h usability
+Configure miss: gssldap.h presence
+Configure miss: gssldap.h
+Configure miss: sasl.h usability
+Configure miss: sasl.h presence
+Configure miss: sasl.h
+Configure miss: gsssasl.h usability
+Configure miss: gsssasl.h presence
+Configure miss: gsssasl.h
+Configure miss: gssapi/gssapi_krb5.h usability
+Configure miss: gssapi/gssapi_krb5.h presence
+Configure miss: gssapi/gssapi_krb5.h
+Configure miss: krb5.h usability
+Configure miss: krb5.h presence
+Configure miss: krb5.h
+Configure miss: krb5 thread safety
