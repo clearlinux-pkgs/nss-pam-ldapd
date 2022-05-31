@@ -1,3 +1,36 @@
+changes from 0.9.11 to 0.9.12
+-----------------------------
+
+* allow explicitly configuring an empty search base (for LDAP servers
+  that support that)
+* support LDAP attributes with minus characters in attribute mapping
+  expressions
+* add tls_reqsan, tls_crlfile and tls_crlcheck options (thanks
+  Sebastien Blavier)
+* support generating ldaps:// URIs from DNS SRV records for port 389 by
+  using DNSLDAPS in the uri option
+* prefer the first URI listed in nslcd.conf after reconnecting after
+  idle_timelimit
+* fix handling of pam_authc_ppolicy no
+* fix debug logging of ldap timeout values
+* documentation improvements (thanks Filip Dvorak and Benedict Reuschling)
+* add pam_authc_ppolicy support to pynslcd
+* fix Python 3 compatibility in chsh.ldap
+* fix for running pynslcd without the uid option
+* partial support for running tests with slapd 2.5 (thanks Ryan Tandy)
+* miscellaneous test suite improvements
+* test suite fixes for Solaris (this will be the last release that will be
+  tested on Solaris)
+
+
+changes from 0.9.10 to 0.9.11
+-----------------------------
+
+* add support for Python 3 in pynslcd and utilities
+* fix crash in chsh.ldap (thanks Mizunashi Mana)
+* test suite improvements
+
+
 changes from 0.9.9 to 0.9.10
 ----------------------------
 
@@ -50,7 +83,7 @@ changes from 0.9.6 to 0.9.7
 * fix error when changing PAM user name (thanks 依云)
 * support substring expressions ${var:offset:length} in attribute mapping
   (thanks Giovanni Mascellani)
-* also honor the ignorecase option in PAM
+* also honour the ignorecase option in PAM
 
 
 changes from 0.9.5 to 0.9.6
