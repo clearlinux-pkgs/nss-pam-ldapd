@@ -5,7 +5,7 @@
 #
 Name     : nss-pam-ldapd
 Version  : 0.9.12
-Release  : 48
+Release  : 49
 URL      : https://github.com/arthurdejong/nss-pam-ldapd/archive/0.9.12/nss-pam-ldapd-0.9.12.tar.gz
 Source0  : https://github.com/arthurdejong/nss-pam-ldapd/archive/0.9.12/nss-pam-ldapd-0.9.12.tar.gz
 Summary  : No detailed summary available
